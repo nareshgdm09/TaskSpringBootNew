@@ -1,0 +1,500 @@
+2019-06-18 16:45:54.591  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Starting SchedulingSpringBootExampleApplication on WSMHD-1377 with PID 11024 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:45:54.591  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : No active profile set, falling back to default profiles: default
+2019-06-18 16:45:55.010  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:45:55.046  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 2 repository interfaces.
+2019-06-18 16:45:55.122  INFO 11024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df5df87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:45:55.259  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:45:55.260  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:45:55.260  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:45:55.294  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:45:55.294  INFO 11024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 700 ms
+2019-06-18 16:45:55.338  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Starting...
+2019-06-18 16:45:55.340  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Start completed.
+2019-06-18 16:45:55.355  INFO 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:45:55.377  INFO 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:45:55.409  INFO 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:45:55.415  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:45:55.526  WARN 11024 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:45:55.554  INFO 11024 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:45:55.591  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:45:55.621  INFO 11024 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:45:55.654  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:45:55.655  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:45:55.660  INFO 11024 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:45:55.700  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:45:55.701  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Started SchedulingSpringBootExampleApplication in 1.159 seconds (JVM running for 3053.988)
+2019-06-18 16:45:55.703  INFO 11024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:45:56.690  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:45:59.691  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:02.691  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:05.690  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:08.691  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:11.689  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:14.690  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:17.690  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:20.690  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:23.685  INFO 11024 --- [Thread-173] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 16:46:23.686  INFO 11024 --- [Thread-173] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:46:23.686  INFO 11024 --- [Thread-173] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:46:23.687  INFO 11024 --- [Thread-173] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:46:23.687  INFO 11024 --- [Thread-173] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown initiated...
+2019-06-18 16:46:23.689  INFO 11024 --- [Thread-173] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown completed.
+2019-06-18 16:46:23.987  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Starting SchedulingSpringBootExampleApplication on WSMHD-1377 with PID 11024 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:46:23.988  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : No active profile set, falling back to default profiles: default
+2019-06-18 16:46:24.431  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:46:24.463  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 2 repository interfaces.
+2019-06-18 16:46:24.541  INFO 11024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df5df87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:46:24.757  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:46:24.758  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:46:24.758  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:46:24.798  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:46:24.799  INFO 11024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 809 ms
+2019-06-18 16:46:24.859  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Starting...
+2019-06-18 16:46:24.865  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Start completed.
+2019-06-18 16:46:24.904  INFO 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:46:24.929  INFO 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:46:25.021  INFO 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:46:25.028  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:46:25.138  WARN 11024 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:46:25.166  INFO 11024 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:46:25.205  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:46:25.238  INFO 11024 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:46:25.272  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:46:25.273  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:46:25.277  INFO 11024 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:46:25.305  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:46:25.306  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Started SchedulingSpringBootExampleApplication in 1.352 seconds (JVM running for 3083.593)
+2019-06-18 16:46:25.308  INFO 11024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:46:26.298  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:26.310  INFO 11024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-18 16:46:26.310  INFO 11024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-18 16:46:26.313  INFO 11024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-06-18 16:46:26.320  INFO 11024 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-18 16:46:26.327  WARN 11024 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.naresh.exception.RecordNotFoundException: Player Record not found :Player [id=9991, name=null, status=null, createdTime=null, jsonFile=null, xmlFile=null]]
+2019-06-18 16:46:29.297  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:32.296  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:35.296  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:38.297  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:41.296  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:44.297  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:47.297  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:49.155  INFO 11024 --- [Thread-179] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 16:46:49.156  INFO 11024 --- [Thread-179] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:46:49.156  INFO 11024 --- [Thread-179] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:46:49.157  INFO 11024 --- [Thread-179] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:46:49.157  INFO 11024 --- [Thread-179] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown initiated...
+2019-06-18 16:46:49.158  INFO 11024 --- [Thread-179] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown completed.
+2019-06-18 16:46:49.423  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Starting SchedulingSpringBootExampleApplication on WSMHD-1377 with PID 11024 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:46:49.423  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : No active profile set, falling back to default profiles: default
+2019-06-18 16:46:49.839  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:46:49.869  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 2 repository interfaces.
+2019-06-18 16:46:49.939  INFO 11024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df5df87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:46:50.087  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:46:50.087  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:46:50.088  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:46:50.122  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:46:50.122  INFO 11024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 696 ms
+2019-06-18 16:46:50.160  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Starting...
+2019-06-18 16:46:50.161  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Start completed.
+2019-06-18 16:46:50.175  INFO 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:46:50.200  INFO 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:46:50.244  INFO 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:46:50.252  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:46:50.365  WARN 11024 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:46:50.395  INFO 11024 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:46:50.437  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:46:50.468  INFO 11024 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:46:50.500  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:46:50.501  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:46:50.506  INFO 11024 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:46:50.535  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:46:50.536  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Started SchedulingSpringBootExampleApplication in 1.146 seconds (JVM running for 3108.824)
+2019-06-18 16:46:50.538  INFO 11024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:46:51.526  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:51.527  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:46:51.530  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:46:54.526  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:54.526  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:46:54.526  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:46:57.525  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:46:57.525  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:46:57.525  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:00.526  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:00.526  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:00.526  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:03.525  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:03.525  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:03.525  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:06.527  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:06.527  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:06.527  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:07.254  INFO 11024 --- [Thread-185] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 16:47:07.255  INFO 11024 --- [Thread-185] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:47:07.255  INFO 11024 --- [Thread-185] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:47:07.288  INFO 11024 --- [Thread-185] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:47:07.323  INFO 11024 --- [Thread-185] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown initiated...
+2019-06-18 16:47:07.326  INFO 11024 --- [Thread-185] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown completed.
+2019-06-18 16:47:07.568  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Starting SchedulingSpringBootExampleApplication on WSMHD-1377 with PID 11024 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:47:07.568  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : No active profile set, falling back to default profiles: default
+2019-06-18 16:47:08.003  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:47:08.034  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 2 repository interfaces.
+2019-06-18 16:47:08.105  INFO 11024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df5df87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:47:08.243  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:47:08.244  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:47:08.244  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:47:08.278  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:47:08.278  INFO 11024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 708 ms
+2019-06-18 16:47:08.315  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Starting...
+2019-06-18 16:47:08.317  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Start completed.
+2019-06-18 16:47:08.331  INFO 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:47:08.351  INFO 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:47:08.379  INFO 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:47:08.387  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:47:08.498  WARN 11024 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:47:08.526  INFO 11024 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:47:08.568  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:47:08.603  INFO 11024 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:47:08.646  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:47:08.648  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:47:08.652  INFO 11024 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:47:08.688  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:47:08.688  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Started SchedulingSpringBootExampleApplication in 1.152 seconds (JVM running for 3126.977)
+2019-06-18 16:47:08.691  INFO 11024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:47:09.677  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:09.678  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:09.681  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:12.676  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:12.676  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:12.677  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:15.677  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:15.677  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:15.677  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:18.677  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:18.677  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:18.677  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:21.678  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:21.678  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:21.678  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:24.676  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:24.676  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:24.676  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:27.695  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:27.696  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:27.696  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:28.550  INFO 11024 --- [Thread-191] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 16:47:28.551  INFO 11024 --- [Thread-191] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:47:28.551  INFO 11024 --- [Thread-191] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:47:28.552  INFO 11024 --- [Thread-191] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:47:28.552  INFO 11024 --- [Thread-191] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown initiated...
+2019-06-18 16:47:28.553  INFO 11024 --- [Thread-191] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown completed.
+2019-06-18 16:47:28.806  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Starting SchedulingSpringBootExampleApplication on WSMHD-1377 with PID 11024 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:47:28.806  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : No active profile set, falling back to default profiles: default
+2019-06-18 16:47:29.211  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:47:29.242  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 2 repository interfaces.
+2019-06-18 16:47:29.310  INFO 11024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df5df87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:47:29.453  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:47:29.454  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:47:29.454  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:47:29.487  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:47:29.488  INFO 11024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 679 ms
+2019-06-18 16:47:29.526  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Starting...
+2019-06-18 16:47:29.528  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Start completed.
+2019-06-18 16:47:29.543  INFO 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:47:29.565  INFO 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:47:29.591  INFO 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:47:29.597  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:47:29.693  WARN 11024 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:47:29.724  INFO 11024 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:47:29.766  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:47:29.807  INFO 11024 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:47:29.839  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:47:29.840  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:47:29.844  INFO 11024 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:47:29.873  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:47:29.874  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Started SchedulingSpringBootExampleApplication in 1.096 seconds (JVM running for 3148.162)
+2019-06-18 16:47:29.876  INFO 11024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:47:30.865  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:30.866  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:30.868  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:33.866  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:33.866  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:33.866  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:36.865  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:36.865  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:36.865  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:39.865  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:39.865  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:39.865  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:42.569  INFO 11024 --- [Thread-197] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 16:47:42.569  INFO 11024 --- [Thread-197] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:47:42.570  INFO 11024 --- [Thread-197] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:47:42.570  INFO 11024 --- [Thread-197] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:47:42.571  INFO 11024 --- [Thread-197] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown initiated...
+2019-06-18 16:47:42.571  INFO 11024 --- [Thread-197] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown completed.
+2019-06-18 16:47:42.798  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Starting SchedulingSpringBootExampleApplication on WSMHD-1377 with PID 11024 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:47:42.798  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : No active profile set, falling back to default profiles: default
+2019-06-18 16:47:43.215  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:47:43.245  INFO 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 2 repository interfaces.
+2019-06-18 16:47:43.317  INFO 11024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df5df87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:47:43.453  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:47:43.454  INFO 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:47:43.454  INFO 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:47:43.488  INFO 11024 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:47:43.488  INFO 11024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 688 ms
+2019-06-18 16:47:43.529  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Starting...
+2019-06-18 16:47:43.530  INFO 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Start completed.
+2019-06-18 16:47:43.545  INFO 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:47:43.566  INFO 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:47:43.595  INFO 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:47:43.612  INFO 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:47:43.732  WARN 11024 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:47:43.763  INFO 11024 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:47:43.801  INFO 11024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:47:43.828  INFO 11024 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:47:43.862  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:47:43.863  INFO 11024 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:47:43.868  INFO 11024 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:47:43.899  INFO 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:47:43.900  INFO 11024 --- [restartedMain] s.SchedulingSpringBootExampleApplication : Started SchedulingSpringBootExampleApplication in 1.134 seconds (JVM running for 3162.188)
+2019-06-18 16:47:43.902  INFO 11024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:47:44.890  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:44.891  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:44.894  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:47.889  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:47.889  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:47.890  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:50.889  INFO 11024 --- [scheduling-1] com.naresh.scheduletask.ModelTrainer     : inside modelTrainerscheduledMethod()
+2019-06-18 16:47:50.889  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:47:50.889  INFO 11024 --- [scheduling-1] c.n.service.FileDirectoryServiceImpl     : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:58:06.378  INFO 22664 --- [restartedMain] c.t.s.ModelTrainerApplication            : Starting ModelTrainerApplication on WSMHD-1377 with PID 22664 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:58:06.418  INFO 22664 --- [restartedMain] c.t.s.ModelTrainerApplication            : No active profile set, falling back to default profiles: default
+2019-06-18 16:58:06.489  INFO 22664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 16:58:06.489  INFO 22664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 16:58:07.457  INFO 22664 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:58:07.471  INFO 22664 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-18 16:58:08.053  INFO 22664 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7cd55b5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:58:08.559  INFO 22664 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:58:08.642  INFO 22664 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-18 16:58:08.644  INFO 22664 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:58:08.828  INFO 22664 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:58:08.829  INFO 22664 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2339 ms
+2019-06-18 16:58:09.022  INFO 22664 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-06-18 16:58:09.199  INFO 22664 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-06-18 16:58:09.259  INFO 22664 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:58:09.336  INFO 22664 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-18 16:58:09.338  INFO 22664 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-06-18 16:58:09.507  INFO 22664 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-18 16:58:09.698  INFO 22664 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:58:10.008  INFO 22664 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:58:10.030  INFO 22664 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:58:10.036  WARN 22664 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'modelTrainerApplication': Unsatisfied dependency expressed through field 'fileScanScheduler'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.task.scheduletask.FileScanScheduler' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-06-18 16:58:10.037  INFO 22664 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:58:10.044  INFO 22664 --- [restartedMain] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:58:10.044  INFO 22664 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-06-18 16:58:10.047  INFO 22664 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-06-18 16:58:10.049  INFO 22664 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-06-18 16:58:10.065  INFO 22664 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-18 16:58:10.278 ERROR 22664 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileScanScheduler in com.task.scheduling.ModelTrainerApplication required a bean of type 'com.task.scheduletask.FileScanScheduler' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.task.scheduletask.FileScanScheduler' in your configuration.
+
+2019-06-18 16:59:07.162  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : Starting ModelTrainerApplication on WSMHD-1377 with PID 13860 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:59:07.169  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : No active profile set, falling back to default profiles: default
+2019-06-18 16:59:07.268  INFO 13860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 16:59:07.269  INFO 13860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 16:59:08.483  INFO 13860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:59:08.551  INFO 13860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 2 repository interfaces.
+2019-06-18 16:59:09.173  INFO 13860 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63ff091c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:59:09.771  INFO 13860 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:59:09.803  INFO 13860 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-18 16:59:09.804  INFO 13860 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:59:09.986  INFO 13860 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:59:09.987  INFO 13860 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2718 ms
+2019-06-18 16:59:10.196  INFO 13860 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-06-18 16:59:10.370  INFO 13860 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-06-18 16:59:10.435  INFO 13860 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:59:10.531  INFO 13860 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-18 16:59:10.533  INFO 13860 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-06-18 16:59:10.719  INFO 13860 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-18 16:59:10.904  INFO 13860 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:59:11.631  INFO 13860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:59:11.655  INFO 13860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:59:12.424  WARN 13860 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:59:12.590  INFO 13860 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:59:12.756  INFO 13860 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:59:12.944  INFO 13860 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:59:13.027  INFO 13860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:59:13.058  INFO 13860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:59:13.090  INFO 13860 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:59:13.326  INFO 13860 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:59:13.328  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : Started ModelTrainerApplication in 6.601 seconds (JVM running for 7.546)
+2019-06-18 16:59:13.331  INFO 13860 --- [restartedMain] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:13.331  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:13.336  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:13.604  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside moveCompletedFiles(List<Player> playerRecords) method
+2019-06-18 16:59:14.294  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:14.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:14.295  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:17.295  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:17.295  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:17.295  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:20.294  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:20.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:20.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:23.294  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:23.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:23.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:26.293  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:26.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:26.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:29.293  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:29.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:29.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:32.293  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:32.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:32.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:35.293  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:35.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:35.293  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:38.295  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:38.295  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:38.295  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:41.294  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:41.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:41.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:44.294  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:44.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:44.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:47.294  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:47.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:47.294  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:48.157  INFO 13860 --- [Thread-6] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 16:59:48.159  INFO 13860 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:59:48.167  INFO 13860 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:59:48.171  INFO 13860 --- [Thread-6] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 16:59:48.172  INFO 13860 --- [Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-06-18 16:59:48.176  INFO 13860 --- [Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-06-18 16:59:48.538  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : Starting ModelTrainerApplication on WSMHD-1377 with PID 13860 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 16:59:48.538  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : No active profile set, falling back to default profiles: default
+2019-06-18 16:59:49.156  INFO 13860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 16:59:49.173  INFO 13860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 2 repository interfaces.
+2019-06-18 16:59:49.349  INFO 13860 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63ff091c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:59:49.533  INFO 13860 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 16:59:49.534  INFO 13860 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-18 16:59:49.535  INFO 13860 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 16:59:49.573  INFO 13860 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:59:49.573  INFO 13860 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1029 ms
+2019-06-18 16:59:49.653  INFO 13860 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2019-06-18 16:59:49.656  INFO 13860 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2019-06-18 16:59:49.663  INFO 13860 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 16:59:49.689  INFO 13860 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 16:59:49.746  INFO 13860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 16:59:49.754  INFO 13860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 16:59:49.921  WARN 13860 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 16:59:49.975  INFO 13860 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 16:59:50.043  INFO 13860 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 16:59:50.119  INFO 13860 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 16:59:50.161  INFO 13860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 16:59:50.163  INFO 13860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 16:59:50.168  INFO 13860 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 16:59:50.229  INFO 13860 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 16:59:50.230  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : Started ModelTrainerApplication in 1.746 seconds (JVM running for 44.448)
+2019-06-18 16:59:50.231  INFO 13860 --- [restartedMain] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:50.231  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:50.234  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:50.238  INFO 13860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 16:59:51.215  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:51.215  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:51.215  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:59.215  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 16:59:59.215  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 16:59:59.215  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:07.214  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:07.214  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:07.214  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:15.215  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:15.215  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:15.215  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:22.213  INFO 13860 --- [Thread-11] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-06-18 17:00:22.214  INFO 13860 --- [Thread-11] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:00:22.219  INFO 13860 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 17:00:22.224  INFO 13860 --- [Thread-11] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-18 17:00:22.225  INFO 13860 --- [Thread-11] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2019-06-18 17:00:22.227  INFO 13860 --- [Thread-11] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2019-06-18 17:00:22.503  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : Starting ModelTrainerApplication on WSMHD-1377 with PID 13860 (C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master\target\classes started by naga0316 in C:\Users\naga0316\Desktop\TaskProblem\TaskWithSpringBootJPA-master)
+2019-06-18 17:00:22.503  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : No active profile set, falling back to default profiles: default
+2019-06-18 17:00:23.040  INFO 13860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 17:00:23.056  INFO 13860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 2 repository interfaces.
+2019-06-18 17:00:23.167  INFO 13860 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63ff091c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 17:00:23.343  INFO 13860 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 17:00:23.347  INFO 13860 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-18 17:00:23.347  INFO 13860 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:00:23.395  INFO 13860 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-18 17:00:23.395  INFO 13860 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 889 ms
+2019-06-18 17:00:23.469  INFO 13860 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2019-06-18 17:00:23.479  INFO 13860 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2019-06-18 17:00:23.489  INFO 13860 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-18 17:00:23.514  INFO 13860 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-18 17:00:23.568  INFO 13860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-18 17:00:23.576  INFO 13860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 17:00:23.723  WARN 13860 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-18 17:00:23.762  INFO 13860 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-18 17:00:23.815  INFO 13860 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:00:23.857  INFO 13860 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-06-18 17:00:23.900  INFO 13860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-18 17:00:23.901  INFO 13860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-18 17:00:23.905  INFO 13860 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-18 17:00:23.950  INFO 13860 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 17:00:23.950  INFO 13860 --- [restartedMain] c.t.s.ModelTrainerApplication            : Started ModelTrainerApplication in 1.499 seconds (JVM running for 78.169)
+2019-06-18 17:00:23.952  INFO 13860 --- [restartedMain] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:23.952  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:23.955  INFO 13860 --- [restartedMain] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:23.960  INFO 13860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-18 17:00:24.942  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:24.942  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:24.942  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:32.941  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:32.941  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:32.941  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:40.942  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:40.942  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:40.942  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:48.940  INFO 13860 --- [scheduling-1] c.t.s.FileScanScheduler                  : inside modelTrainerscheduledMethod()
+2019-06-18 17:00:48.940  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
+2019-06-18 17:00:48.940  INFO 13860 --- [scheduling-1] c.t.s.FileDirectoryServiceImpl           : inside getTypeFiles(String dirPath, String fileType) method
