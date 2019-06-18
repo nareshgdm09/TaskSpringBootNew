@@ -2,6 +2,7 @@ package com.task.service;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -12,11 +13,10 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
-import com.task.common.CommonUtil;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.task.common.Constants;
 import com.task.entity.Player;
 import com.task.exception.ExcelFileCreationException;
@@ -24,41 +24,20 @@ import com.task.exception.ExcelFileCreationException;
 @Component
 public class ExcelFileServiceImpl implements ExcelFileService {
 
-	@Override
-	public void createExcelFile(List<Player> players) throws ExcelFileCreationException {
-		String excelpath = Constants.Excelpath;
-		File file1 = new File(excelpath);
-		if (!file1.exists()) {
-			file1.mkdir();
-		}
+	public void generateExcelFile(List<Player> players) throws ExcelFileCreationException {
+
+		final String excelpath = Constants.Excelpath;
+
 		for (Player player : players) {
 
-			System.out.println("Processing Excel file player :" + player.getId() + " " + player.getName()
-					+ player.getCreatedTime());
-			// Create blank workbook
 			XSSFWorkbook workbook = new XSSFWorkbook();
-
-			// Create a blank sheet
 			XSSFSheet spreadsheet = workbook.createSheet(" Player Info ");
-
-			// Create row object
 			XSSFRow row;
+
 			try {
-				String jsonString = CommonUtil.byteArrToString(player.getJsonFile());
-				String xmlString = CommonUtil.byteArrToString(player.getXmlFile());
 
-				JSONObject playerJson = StringToJsonObj(jsonString);
+				Map<String, Object[]> empinfo = generateExcelData(player);
 
-				Map<String, Object[]> empinfo = new TreeMap<String, Object[]>();
-
-				empinfo.put("1", new Object[] { "ID", "NAME", "ADDRESS", "DOB", "RUNS", "WICKETS" });
-
-				empinfo.put("2",
-						new Object[] { playerJson.getInt("id"), playerJson.getString("name"),
-								playerJson.getString("address"), playerJson.getString("dob"), playerJson.getInt("runs"),
-								playerJson.getString("wickets") });
-
-				// Iterate over data and write to sheet
 				Set<String> keyid = empinfo.keySet();
 				int rowid = 0;
 
@@ -69,37 +48,57 @@ public class ExcelFileServiceImpl implements ExcelFileService {
 
 					for (Object obj : objectArr) {
 						Cell cell = row.createCell(cellid++);
-						cell.setCellValue((String) obj);
+						if (obj instanceof String)
+							cell.setCellValue((String) obj);
+						else if (obj instanceof Integer)
+							cell.setCellValue((Integer) obj);
 					}
 				}
 
-				// Write the workbook in file system
-				FileOutputStream out;
+				createExcelDir(excelpath);
 
-				out = new FileOutputStream(new File(excelpath + player.getId() + ".xlsx"));
+				FileOutputStream out = new FileOutputStream(new File(excelpath + player.getId() + ".xlsx"));
 				workbook.write(out);
 				out.close();
 				File file = new File(excelpath + player.getId() + ".xml");
+				byte[] xmlString = player.getXmlFile();
+				FileUtils.writeByteArrayToFile(file, xmlString);
 
-				FileUtils.writeStringToFile(file, xmlString, "UTF-8");
 			} catch (Exception e) {
-				System.out.println(e.getMessage());
-				 throw new ExcelFileCreationException("Exception while creatinf Excel File");
-			} finally {
-
+				try {
+					workbook.close();
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+				e.printStackTrace();
+				throw new ExcelFileCreationException("Excel file generating error");
 			}
 
 		}
-
 	}
 
-	static JSONObject StringToJsonObj(String jsonString) {
-		try {
-			return new JSONObject(jsonString);
-		} catch (JSONException err) {
-			System.out.println("error converting to josnObject");
+	public static void createExcelDir(String excelpath) {
+		File file1 = new File(excelpath);
+		if (!file1.exists()) {
+			file1.mkdir();
 		}
-		return null;
 	}
 
+	public static Map<String, Object[]> generateExcelData(Player player) {
+		ObjectMapper objectMapper = new ObjectMapper();
+		String jsonString = new String(player.getJsonFile());
+
+		JsonNode playerNode = null;
+		try {
+			playerNode = objectMapper.readTree(jsonString);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		Map<String, Object[]> playerinfo = new TreeMap<String, Object[]>();
+		playerinfo.put("1", new Object[] { "ID", "NAME", "ADDRESS", "DOB", "RUNS", "WICKETS" });
+		playerinfo.put("2", new Object[] { player.getId(), playerNode.get("name"), playerNode.get("address"),
+				playerNode.get("dob"), playerNode.get("runs"), playerNode.get("wickets") });
+		return playerinfo;
+	}
 }

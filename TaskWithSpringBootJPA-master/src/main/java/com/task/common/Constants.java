@@ -26,5 +26,5 @@ public class Constants {
 	public static final String JSONEXT = ".json";
 	public static final String XMLEXT = ".xml";
 
-	public static final String Excelpath = "C:\\Users\\Naresh\\Desktop\\ExcelPath\\";
+	public static final String Excelpath = System.getProperty("user.home")+"\\Desktop\\ExcelPath\\";
 }

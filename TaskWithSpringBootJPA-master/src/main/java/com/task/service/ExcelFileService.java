@@ -7,5 +7,5 @@ import com.task.exception.ExcelFileCreationException;
 
 
 public interface ExcelFileService {
-	public void createExcelFile(List<Player> players) throws ExcelFileCreationException;
+	public void generateExcelFile(List<Player> players) throws ExcelFileCreationException;
 }

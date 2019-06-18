@@ -11,7 +11,9 @@ import org.springframework.stereotype.Component;
 import com.task.common.CommonUtil;
 import com.task.common.Constants;
 import com.task.entity.Player;
+import com.task.exception.ExcelFileCreationException;
 import com.task.exception.FileMoveException;
+import com.task.service.ExcelFileService;
 import com.task.service.FileDirectoryService;
 import com.task.service.PlayerDBService;
 
@@ -24,11 +26,14 @@ public class FileScanScheduler {
 	@Autowired
 	PlayerDBService PlayerDBService;
 
+	@Autowired
+	ExcelFileService excelFileService;
+
 	@SuppressWarnings("unchecked")
 	@Scheduled(initialDelay = 1000, fixedRate = 8000)
-	public void DirectoryScanScheduledMethod() {
+	public void DirectoryScanScheduledMethod() throws ExcelFileCreationException {
 		logger.info("inside modelTrainerscheduledMethod()");
-		
+
 		List<String> jsonFiles = fileDirectoryService.getTypeFiles(Constants.JSONPATH, Constants.JSONEXT);
 		List<String> xmlFiles = fileDirectoryService.getTypeFiles(Constants.XMLPATH, Constants.XMLEXT);
 
@@ -49,6 +54,8 @@ public class FileScanScheduler {
 				logger.info("Error while moving File");
 				e.printStackTrace();
 			}
+
+			excelFileService.generateExcelFile(validRecords);
 		}
 	}
 }
